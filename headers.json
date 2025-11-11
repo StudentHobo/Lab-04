@@ -1,0 +1,18 @@
+[
+  {
+    "url": "http://scanme.nmap.org,",
+    "error": "HTTPConnectionPool(host='scanme.nmap.org,', port=80): Max retries exceeded with url: / (Caused by NameResolutionError(\"<urllib3.connection.HTTPConnection object at 0x745469d189e0>: Failed to resolve 'scanme.nmap.org,' ([Errno -2] Name or service not known)\"))"
+  },
+  {
+    "url": "http://example.com,",
+    "error": "HTTPConnectionPool(host='example.com,', port=80): Max retries exceeded with url: / (Caused by NameResolutionError(\"<urllib3.connection.HTTPConnection object at 0x745469d183e0>: Failed to resolve 'example.com,' ([Errno -2] Name or service not known)\"))"
+  },
+  {
+    "url": "http://httpbin.org",
+    "status": 200,
+    "final_url": "http://httpbin.org/",
+    "server": "gunicorn/19.9.0",
+    "content_type": "text/html; charset=utf-8",
+    "content_length": "9593"
+  }
+]
