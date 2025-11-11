@@ -1,0 +1,25 @@
+q1 - 200, means OK
+q2 - Apache/2.4.7 (Ubuntu) its specific
+q3 - Go ahead and ScanMe!
+q4 - Yes,
+    <form class="nst-search" id="nst-head-search" action="/search/">
+    <input class="nst-search-q" name="q" type="search" placeholder="Site Search">
+    <button class="nst-search-button" title="Search">
+     <img style="width:100%;aspect-ratio:1/1;" alt="" aria-hidden="true"
+      src="/shared/images/nst-icons.svg#search">
+     </button>
+   </form>
+   <form class="nst-search" id="nst-foot-search" action="/search/">
+    <input class="nst-search-q" name="q" type="search" placeholder="Site Search">
+    <button class="nst-search-button" title="Search">
+     <img style="width:100%;aspect-ratio:1/1;" alt="" aria-hidden="true"
+      src="/shared/images/nst-icons.svg#search">
+     </button>
+   </form>
+
+q5 - Yes
+q6 - Yes
+q7 - the status, header and content type. The status tells you if the port is open via the request being accepted or rejected or 
+ignored.the header tells you the system it is running on and version. and the content type tells you what kind of file it is.
+A suggestion to secure the server would be to make sure all versions of the server people can access with different user agents are
+updated and secure.
